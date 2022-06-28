@@ -167,10 +167,20 @@ ul {
 /* Hero */
 
 .hero {
+    max-width: 1600px;
+    min-height: 600px;
+
+    margin-left: auto;
+    margin-right: auto;   
     padding-top: 200px;
     padding-bottom: 200px;
 
     background-color: var(--footer-background-color);
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-img-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
