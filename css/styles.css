@@ -163,6 +163,20 @@ ul {
     margin-right: 50px;
 }
 
+.contacts-icon {
+    margin-right: 10px;
+    fill: var(--secondary-text-color);
+}
+
+.header-contact-link:hover .contacts-icon {
+    fill: var(--accent-color);
+}
+
+.header-contact-link {
+    display: flex;
+    align-items: center;
+}
+
 /* INDEX.HTML */
 /* Hero */
 
