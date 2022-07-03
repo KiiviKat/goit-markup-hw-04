@@ -10,6 +10,7 @@
     --primary-background-color: #FFFFFF;
     --gray-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
+    --footer-socials-background-color: rgba(255, 255, 255, 0.1);
 
     --primary-font-family: 'Roboto', sans-serif;
     --logo-font-family: 'Raleway', sans-serif;
@@ -498,4 +499,49 @@ ul {
     font-size: 14px;
     line-height: 1.71;
 }
+
+.footer-container {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-socials {
+    padding-top: 12px;
+}
+
+.cta-title {
+    color: var(--white-text-color);
+
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.cta-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.cta-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: var(--footer-socials-background-color);
+    
+    width: 44px;
+    height: 44px;
+}
+
+.cta-icon {
+    fill: var(--white-text-color);
+}
+
+.cta-link:hover,
+.cta-link:focus {
+    background-color: var(--accent-color);
+}
+
 
